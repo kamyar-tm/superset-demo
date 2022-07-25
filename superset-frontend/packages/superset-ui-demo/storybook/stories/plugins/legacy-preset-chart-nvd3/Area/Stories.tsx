@@ -31,4 +31,5 @@ export {
   stackedWithYAxisBoundsMinOnly,
 } from './stories/stackedWithBounds';
 export { expanded } from './stories/expanded';
+export { bugs } from './stories/bugs';
 export { controlsShown } from './stories/controlsShown';
