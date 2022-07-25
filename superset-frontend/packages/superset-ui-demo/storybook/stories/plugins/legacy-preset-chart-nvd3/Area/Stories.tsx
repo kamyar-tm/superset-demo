@@ -32,4 +32,6 @@ export {
 } from './stories/stackedWithBounds';
 export { expanded } from './stories/expanded';
 export { bugs } from './stories/bugs';
+export { commits } from './stories/commits';
+export { spillover } from './stories/spillover';
 export { controlsShown } from './stories/controlsShown';
