@@ -32,7 +32,7 @@ export default {
 export const basic = () => (
   <SuperChart
     chartType="heatmap"
-    width={500}
+    width={1000}
     height={500}
     formData={{
       allColumnsX: 'source',
@@ -40,17 +40,17 @@ export const basic = () => (
       bottomMargin: 'auto',
       canvasImageRendering: 'pixelated',
       leftMargin: 'auto',
-      linearColorScheme: 'blue_white_yellow',
+      linearColorScheme: 'techminers',
       metric: 'sum__value',
-      normalized: false,
+      normalized: true,
       showLegend: true,
-      showPerc: true,
-      showValues: false,
+      showPerc: false,
+      showValues: true,
       sortXAxis: 'alpha_asc',
       sortYAxis: 'alpha_asc',
       xscaleInterval: '1',
-      yAxisBounds: [null, null],
-      yAxisFormat: '.3s',
+      yAxisBounds: [0, 800],
+      yAxisFormat: ',d',
       yscaleInterval: '1',
     }}
     queriesData={[

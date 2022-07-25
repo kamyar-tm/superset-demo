@@ -67,7 +67,7 @@ function cmp(a, b) {
 const DEFAULT_PROPERTIES = {
   minChartWidth: 150,
   minChartHeight: 150,
-  marginLeft: 35,
+  marginLeft: 55,
   marginBottom: 35,
   marginTop: 10,
   marginRight: 10,
