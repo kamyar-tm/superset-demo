@@ -118,16 +118,8 @@ const schemes = [
     id: 'techminers',
     label: 'techminers',
     colors: [
-      '#5ecae2',
-      '#5577B9',
-      '#D9E2EE',
-      '#C9D5E6',
-      '#B9C8E0',
-      '#A8B9D9',
-      '#97ADD3',
-      '#879CCD',
-      '#7691C5',
-      '#6483BD',
+      '#1f77b4',
+      '#aec7e8',
     ],
   }
 ].map(s => new CategoricalScheme(s));

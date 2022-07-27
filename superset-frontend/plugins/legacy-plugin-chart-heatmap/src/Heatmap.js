@@ -105,7 +105,7 @@ function Heatmap(element, props) {
     top: 10,
     right: 10,
     bottom: 35,
-    left: 35,
+    left: 55,
   };
 
   let showY = true;

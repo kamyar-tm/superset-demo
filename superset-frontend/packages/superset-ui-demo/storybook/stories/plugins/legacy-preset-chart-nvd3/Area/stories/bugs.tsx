@@ -26,7 +26,7 @@ export const bugs = () => (
   <SuperChart
     chartType="area"
     datasource={dummyDatasource}
-    width={400}
+    width={800}
     height={400}
     queriesData={[{ data }]}
     formData={{

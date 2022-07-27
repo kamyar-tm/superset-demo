@@ -26,7 +26,7 @@ export const commits = () => (
   <SuperChart
     chartType="area"
     datasource={dummyDatasource}
-    width={400}
+    width={800}
     height={400}
     queriesData={[{ data }]}
     formData={{
@@ -46,7 +46,7 @@ export const commits = () => (
       xAxisShowminmax: false,
       xTicksLayout: 'auto',
       yAxisBounds: [null, null],
-      yAxisFormat: '.3s',
+      yAxisFormat: ',d',
       yLogScale: false,
     }}
   />
