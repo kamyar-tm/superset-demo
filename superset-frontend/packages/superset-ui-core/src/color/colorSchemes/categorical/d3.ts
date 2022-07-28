@@ -118,7 +118,7 @@ const schemes = [
     id: 'techminers',
     label: 'techminers',
     colors: [
-      '#5ecae2',
+      '#cccccc',
       '#5577B9',
       '#D9E2EE',
       '#C9D5E6',

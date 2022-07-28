@@ -20,19 +20,19 @@
 import React from 'react';
 import { SuperChart } from '@superset-ui/core';
 import dummyDatasource from '../../../../../shared/dummyDatasource';
-import data from '../data';
+import data from '../data-spillover';
 
 export const basic = () => (
   <SuperChart
     chartType="dist-bar"
-    width={400}
+    width={800}
     height={400}
     datasource={dummyDatasource}
     queriesData={[{ data }]}
     formData={{
       barstacked: false,
       bottomMargin: 'auto',
-      colorScheme: 'd3Category10',
+      colorScheme: 'techminers',
       contribution: false,
       orderBars: false,
       reduceXTicks: false,
@@ -40,10 +40,10 @@ export const basic = () => (
       showControls: false,
       showLegend: true,
       vizType: 'dist_bar',
-      xAxisLabel: 'ddd',
+      xAxisLabel: '',
       xTicksLayout: 'auto',
-      yAxisFormat: '.3s',
-      yAxisLabel: 'ddd',
+      yAxisFormat: '.2',
+      yAxisLabel: '',
     }}
   />
 );
